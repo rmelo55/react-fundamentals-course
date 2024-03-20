@@ -25,6 +25,6 @@ ReactDOM.render(
         <Fragment />
 
     </div>, 
-    // el  // Foi substituído pela linha abaixo
+    /* el   Foi substituído pela linha abaixo */
     document.getElementById( 'root')
 )
