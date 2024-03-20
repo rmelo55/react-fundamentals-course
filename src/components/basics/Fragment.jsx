@@ -9,3 +9,6 @@ export default function Fragment(){
 			</>
 		)
 }
+
+// we can use <div></div> or <React.Fragment></React.Fragment> or 
+// <></> but in this case, we can't use parameters.
