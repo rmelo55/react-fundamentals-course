@@ -7,15 +7,15 @@ const tag = <strong>Ola React!!</strong>
 
 ReactDOM.render(
     <App />
-    , 
-    document.getElementById( 'root')
-    )
+, 
+document.getElementById( 'root')
+)
     
     
-    /*
-    Na linha 7 podemos declarar: 
-    const el = document.getElementById('root') // Pode ser criada diretamente no parâmetro
-    
-    e na linha 11 podemos substituir 
-    document.getElementById('root') por el
-    */
+/*
+Na linha 7 podemos declarar: 
+const el = document.getElementById('root') // Pode ser criada diretamente no parâmetro
+
+e na linha 11 podemos substituir 
+document.getElementById('root') por el
+*/
