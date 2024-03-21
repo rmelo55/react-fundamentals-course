@@ -9,10 +9,10 @@ export default function(props){
                 <strong> { Math.floor(Math.random() * (max - min)  + min) } </strong>
                 <br />
             </h1>
-            <h2>
+            <p>
                 Número mínimo: { min } <br />
                 Número máximo: { max }
-            </h2>
+            </p>
             <hr/>
         </div>
     )
