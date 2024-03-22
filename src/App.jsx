@@ -9,9 +9,9 @@ export default function App(){
     return (
         <div id="app">
 
-            <Card title='Títle here' />
-
-            <Random min= {10} max={300} />
+            <Card title='Desafio Aleatório'>
+                <Random min= {10} max={300} />
+            </Card>
         
             <Fragment />
 

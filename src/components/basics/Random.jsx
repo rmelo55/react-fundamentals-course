@@ -13,7 +13,6 @@ export default function(props){
                 Número mínimo: { min } <br />
                 Número máximo: { max }
             </p>
-            <hr/>
         </div>
     )
 }
