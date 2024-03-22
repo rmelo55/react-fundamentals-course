@@ -5,6 +5,7 @@ import Primeiro from './components/basics/Primeiro'
 import Fragment from './components/basics/Fragment'
 import Random from './components/basics/Random'
 import './App.css'
+import Family from './components/basics/Family'
 
 export default function App(){
     return (
@@ -14,6 +15,10 @@ export default function App(){
 
             <div className="Cards">
                     
+                <Card title='#05 - Component with Children' color="#028392">
+                    <Family sobrenome="Brandão" graduated="yes" />
+                </Card>
+
                 <Card title='#04 - Desafio Aleatório' color='#008000'>
                     <Random min= {10} max={300} />
                 </Card>
