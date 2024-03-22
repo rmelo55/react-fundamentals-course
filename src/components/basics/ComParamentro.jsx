@@ -12,7 +12,6 @@ export default function ComParamentro(props){
                 tirou nota { notaInt }, 
                 e está <strong>{ status }</strong> 
             </p>
-            <hr/>
         </div>
     )
 }

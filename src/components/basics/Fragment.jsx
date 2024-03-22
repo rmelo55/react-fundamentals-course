@@ -5,7 +5,6 @@ export default function Fragment(){
 			<>
 				<h1>Fragment</h1>
 				<p>Cuidado com esse erro!</p>
-				<hr/>
 			</>
 		)
 }

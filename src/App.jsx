@@ -9,23 +9,33 @@ export default function App(){
     return (
         <div id="app">
 
-            <Card title='Desafio Aleatório'>
+            <h1>Fundamentos React</h1>
+
+            <Card title='#04 - Desafio Aleatório'>
                 <Random min= {10} max={300} />
             </Card>
         
-            <Fragment />
+            <Card title='#03 - Fragment'>
+                <Fragment />
+            </Card>
 
-            <ComParametro 
-                titulo="Situação do Aluno"
-                aluno="Pedro Silva" 
-                nota={8.1} />
+            <Card title='#02.2 - Student Status'>
+                <ComParametro 
+                    titulo="Situação do Aluno"
+                    aluno="Pedro Silva" 
+                    nota={8.1} />
+            </Card>
 
-            <ComParametro 
-                titulo="Situação do Aluno"
-                aluno="Aline Moreira Silva" 
-                nota={7.8} />
+            <Card title='#02.1 - Student Status'>
+                <ComParametro 
+                    titulo="Situação do Aluno"
+                    aluno="Aline Moreira Silva" 
+                    nota={7.8} />
+            </Card>
 
-            <Primeiro></Primeiro> 
+            <Card title='#01 - First Componet'>
+                <Primeiro></Primeiro> 
+            </Card>
 
     </div>
     )
