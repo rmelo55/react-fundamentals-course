@@ -10,7 +10,9 @@ export default function(props){
                 <br />
             </h1>
             <p>
-                Número mínimo: { min } <br />
+                Número mínimo: { min } 
+            </p>
+            <p>
                 Número máximo: { max }
             </p>
         </div>
