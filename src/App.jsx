@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './components/layout/Card'
 import ComParametro from './components/basics/ComParamentro'
 import Primeiro from './components/basics/Primeiro'
 import Fragment from './components/basics/Fragment'
@@ -7,6 +8,8 @@ import Random from './components/basics/Random'
 export default function App(){
     return (
         <div id="app">
+
+            <Card title='Títle here' />
 
             <Random min= {10} max={300} />
         
