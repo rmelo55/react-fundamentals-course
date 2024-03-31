@@ -8,6 +8,7 @@ import './App.css'
 import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
 import ListStudents from './components/repetition/ListSudents'
+import ProductTable from './components/repetition/ProductTable'
 
 export default function App(){
     return (
@@ -16,6 +17,10 @@ export default function App(){
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+
+                <Card title='#07 - Repeat Challenger'>
+                    <ProductTable></ProductTable>
+                </Card>
 
                 <Card title='#06 - Repetetion' color='#BFD641'>
                     <ListStudents></ListStudents>

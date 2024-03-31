@@ -11,8 +11,8 @@ export default props => {
     */}
     const studentsLi = students.map((student)=>{
         return (
-            <li key={students.id} style={{textAlign: 'left', marginLeft: 'auto'}}>
-                {student.id}) {student.name} ==> {student.nota}
+            <li key={students.id} style={{textAlign: 'left'}}>
+                {student.id}) {student.name} {'==>'} {student.nota}
             </li>
         )
     })
