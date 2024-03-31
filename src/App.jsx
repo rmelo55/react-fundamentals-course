@@ -7,6 +7,7 @@ import Random from './components/basics/Random'
 import './App.css'
 import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
+import ListStudents from './components/repetition/ListSudents'
 
 export default function App(){
     return (
@@ -15,12 +16,16 @@ export default function App(){
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+
+                <Card title='#06 - Repetetion' color='#BFD641'>
+                    <ListStudents></ListStudents>
+                </Card>
                     
                 <Card title='#05 - Component with Children' color="#028392">
                     <Family sobrenome="Brandão">
                         <FamilyMember name="Francisco"/>
-                        {/* <FamilyMember name="Pedro"/>
-                        <FamilyMember name="Peterson"/> */}
+                        <FamilyMember name="Pedro"/>
+                        <FamilyMember name="Peterson"/>
                     </Family>
                 </Card>
 
