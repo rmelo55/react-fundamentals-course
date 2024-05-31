@@ -9,6 +9,7 @@ import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
 import ListStudents from './components/repetition/ListSudents'
 import ProductTable from './components/repetition/ProductTable'
+import EvenOrOdd from './components/conditional/EvenOrOdd'
 
 export default function App(){
     return (
@@ -17,6 +18,10 @@ export default function App(){
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+
+                <Card title='#08 - Repeat Conditional'>
+                    <EvenOrOdd number={22}></EvenOrOdd>
+                </Card>
 
                 <Card title='#07 - Repeat Challenger'>
                     <ProductTable></ProductTable>
