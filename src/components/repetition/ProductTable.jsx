@@ -1,21 +1,22 @@
 import React from 'react'
 import products from '../../data/products'
+import './ProductTable.css'
 
 export default function ProductTable(props){
 
-    const divTable = products.map((product)=>{
+    const divTable = products.map((product, i)=>{
         return (
-            <tr>
+            <tr key={product.id} className={ ( i % 2 == 0 ) ? 'Even' : 'Odd' }>
                 <td> {product.id} </td> 
                 <td> {product.name} </td> 
-                <td> {product.price} </td>
+                <td> {product.price.toFixed(2).replace(".",",")} </td>
             </tr>
         )
     })
 
     return (
         <div>
-            <table className='tableProducts'>
+            <table className='TableProduct'>
                 <tr>
                     <th id='idColumn'>ID</th>
                     <th id='nameColumn'>NAME</th>
