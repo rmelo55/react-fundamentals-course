@@ -28,5 +28,15 @@ export default [
         id: 7,
         name: 'Apple Magic Mouse',
         price: 8.00
+    },
+    {
+        id: 8,
+        name: 'iPad 6 2018',
+        price: 1000.00
+    },
+    {
+        id: 9,
+        name: 'Fone de ouvido Sansumg',
+        price: 520.00
     }
 ]

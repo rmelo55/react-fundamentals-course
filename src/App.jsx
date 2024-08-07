@@ -19,7 +19,7 @@ export default function App(){
 
             <div className="Cards">
 
-                <Card title='#08 - Repeat Conditional'>
+                <Card title='#08 - Conditional Repetetion' color="#148F77">
                     <EvenOrOdd number={22}></EvenOrOdd>
                 </Card>
 
@@ -27,7 +27,7 @@ export default function App(){
                     <ProductTable></ProductTable>
                 </Card>
 
-                <Card title='#06 - Repetetion' color='#BFD641'>
+                <Card title='#06 - Repetetion' color='#2874A6'>
                     <ListStudents></ListStudents>
                 </Card>
                     
@@ -54,7 +54,7 @@ export default function App(){
                         nota={8.1} />
                 </Card>
 
-                <Card title='#02.1 - Student Status' color='#808000'>
+                <Card title='#02.1 - Student Status' color='#EB984E'>
                     <ComParametro 
                         titulo="Situação do Aluno"
                         aluno="Aline Moreira Silva" 
